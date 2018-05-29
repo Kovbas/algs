@@ -1,16 +1,25 @@
-//AAAABBBCCXYZDDDDEEEFFFAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBB
+﻿//#include "pre.h"
+#include "rle.h"
+/*!
+	* \file rle.cpp
+	* \date 5/29/2018 1:02:46 PM
+	*
+	* \author Kovbas (kovbas)
+	*
+	* \brief
+	*
+	* TODO: long description
+	*
+	* \note
+*/
 
-//A4B3C2XYZD4E3F3A6B28
+#include <stdio.h>
+#include <string>
+#include <cstring>
 
-
-
-
-
-void main()
-
+void rle()
 {
-
- 	//AAAABBBCCXYZDDDDEEEFFFAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBB
+	//AAAABBBCCXYZDDDDEEEFFFAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBB
 	//A4B3C2XYZD4E3F3A6B28
 
 	char str[] = "AAAABBBCCXYZDDDDEEEFFFAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBB";
@@ -45,3 +54,5 @@ void main()
 
 	printf("%s\n", str);
 }
+
+
